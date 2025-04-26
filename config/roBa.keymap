@@ -134,10 +134,10 @@
 
         layer_7 {
             bindings = <
-&kp ESCAPE  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&kp TAB     &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&kp ESCAPE  &kp GRAVE  &kp UP_ARROW  &kp PIPE   &trans                             &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&kp TAB     &kp LEFT   &kp DOWN      &kp RIGHT  &kp BACKSLASH  &trans      &trans  &trans  &trans  &trans            &trans             &trans
+&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans  &trans  &trans            &trans             &trans
+&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans                                               &trans
             >;
         };
     };
