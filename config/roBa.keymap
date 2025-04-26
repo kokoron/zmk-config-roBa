@@ -67,10 +67,10 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R         &kp T                                                 &kp Y                        &kp U  &lt 5 I    &kp O    &kp P
-&mt LCTRL A       &kp S         &kp D         &kp F         &kp G        &kp LS(LG(S))             &kp MINUS      &kp H                        &kp J  &kp K      &kp L    &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B        &kp LEFT_ALT              &kp SEMICOLON  &kp N                        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_WIN  &lt 6 SPACE  &mt LEFT_SHIFT SPACE      &lt 7 SPACE    &mt RIGHT_WIN LANG_HIRAGANA                             &kp DEL
+&kp Q             &kp W         &kp E         &kp R         &kp T                                               &kp Y                        &kp U  &lt 5 I    &kp O    &kp P
+&mt LCTRL A       &kp S         &kp D         &kp F         &kp G        &kp LS(LG(S))             &kp MINUS    &kp H                        &kp J  &kp K      &kp L    &kp SQT
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V         &kp B        &kp LEFT_ALT              &mo 8        &kp N                        &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_WIN  &lt 6 SPACE  &mt LEFT_SHIFT SPACE      &lt 7 SPACE  &mt RIGHT_WIN LANG_HIRAGANA                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -134,10 +134,19 @@
 
         layer_7 {
             bindings = <
-&kp ESCAPE  &kp GRAVE  &kp UP_ARROW  &kp PIPE   &trans                             &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&kp TAB     &kp LEFT   &kp DOWN      &kp RIGHT  &kp BACKSLASH  &trans      &trans  &trans  &trans  &trans            &trans             &trans
-&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans  &trans  &trans            &trans             &trans
-&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans                                               &trans
+&kp ESCAPE  &kp GRAVE  &kp UP_ARROW  &kp PIPE   &trans                             &trans  &trans      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &trans
+&kp TAB     &kp LEFT   &kp DOWN      &kp RIGHT  &kp BACKSLASH  &trans      &trans  &trans  &trans      &trans             &trans             &trans
+&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans
+&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans                                                    &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                      &trans  &trans  &trans  &trans  &trans
+&trans        &trans          &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans        &trans          &trans        &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&bt BT_CLR    &bt BT_CLR_ALL  &trans        &trans        &trans        &trans      &trans  &trans                          &trans
             >;
         };
     };
