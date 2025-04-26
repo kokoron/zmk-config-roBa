@@ -137,7 +137,7 @@
 &kp ESCAPE  &kp GRAVE  &kp UP_ARROW  &kp PIPE   &trans                             &trans  &trans      &kp LEFT_BRACKET   &kp RIGHT_BRACKET  &trans
 &kp TAB     &kp LEFT   &kp DOWN      &kp RIGHT  &kp BACKSLASH  &trans      &trans  &trans  &trans      &trans             &trans             &trans
 &trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans  &kp K_MUTE  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP    &trans
-&trans      &trans     &trans        &trans     &trans         &trans      &trans  &trans                                                    &trans
+&trans      &trans     &trans        &trans     &kp BACKSPACE  &trans      &trans  &trans                                                    &trans
             >;
         };
 
