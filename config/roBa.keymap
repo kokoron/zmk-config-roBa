@@ -125,10 +125,10 @@
 
         layer_6 {
             bindings = <
-&kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT                             &kp AMPS     &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER
-&kp TILDE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH  &trans      &trans       &kp ASTRK    &kp PLUS   &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp COLON
-&kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DLLR  &trans      &bootloader  &kp PERCENT  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QMARK
-&trans           &trans        &trans        &trans        &trans    &trans      &kp RET      &trans                                                               &bt BT_CLR_ALL
+&kp EXCLAMATION  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp AT                         &kp AMPS     &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDER
+&kp TILDE        &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp HASH  &trans      &trans   &kp ASTRK    &kp PLUS   &kp SINGLE_QUOTE      &kp DOUBLE_QUOTES      &kp COLON
+&kp NUMBER_0     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp DLLR  &trans      &trans   &kp PERCENT  &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp QMARK
+&trans           &trans        &trans        &trans        &trans    &trans      &kp RET  &trans                                                               &bootloader
             >;
         };
 
